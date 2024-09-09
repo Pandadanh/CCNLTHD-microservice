@@ -1,0 +1,5 @@
+docker-compose/
+gateway/
+service-data/
+service-fe/
+service-notification/
