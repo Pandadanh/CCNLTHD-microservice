@@ -1,0 +1,17 @@
+CREATE DATABASE "ServiceData";
+CREATE DATABASE "GateWay";
+CREATE DATABASE "ServiceFE";
+CREATE DATABASE "serviceNotification";
+
+\c "ServiceData"
+CREATE EXTENSION IF NOT EXISTS unaccent;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+\c "GateWay"
+CREATE EXTENSION IF NOT EXISTS unaccent;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+\c "ServiceFE"
+CREATE EXTENSION IF NOT EXISTS unaccent;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+\c "serviceNotification"
+CREATE EXTENSION IF NOT EXISTS unaccent;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
